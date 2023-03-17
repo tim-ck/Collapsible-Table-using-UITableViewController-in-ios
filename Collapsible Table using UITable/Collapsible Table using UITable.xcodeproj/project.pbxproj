@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA3CB40E29C457CB00B7349E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3CB40D29C457CB00B7349E /* AppDelegate.swift */; };
+		CA3CB41229C457CB00B7349E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3CB41129C457CB00B7349E /* ViewController.swift */; };
+		CA3CB41529C457CB00B7349E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3CB41329C457CB00B7349E /* Main.storyboard */; };
+		CA3CB41729C457CC00B7349E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA3CB41629C457CC00B7349E /* Assets.xcassets */; };
+		CA3CB41A29C457CC00B7349E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3CB41829C457CC00B7349E /* LaunchScreen.storyboard */; };
+		CA3CB42529C457CC00B7349E /* Collapsible_Table_using_UITableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3CB42429C457CC00B7349E /* Collapsible_Table_using_UITableTests.swift */; };
+		CA3CB42F29C457CC00B7349E /* Collapsible_Table_using_UITableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3CB42E29C457CC00B7349E /* Collapsible_Table_using_UITableUITests.swift */; };
+		CA3CB43129C457CC00B7349E /* Collapsible_Table_using_UITableUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3CB43029C457CC00B7349E /* Collapsible_Table_using_UITableUITestsLaunchTests.swift */; };
+		CA3CB44029C4586B00B7349E /* ServiceCollapsibleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3CB43F29C4586B00B7349E /* ServiceCollapsibleTableViewController.swift */; };
+		CA3CB44229C4589000B7349E /* ExampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3CB44129C4589000B7349E /* ExampleData.swift */; };
+		CA3CB44429C458B000B7349E /* CollapsibleTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3CB44329C458B000B7349E /* CollapsibleTableViewHeader.swift */; };
+		CA3CB44629C458D300B7349E /* CollapsiblesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3CB44529C458D300B7349E /* CollapsiblesTableViewCell.swift */; };
+		CA3CB44929C4591000B7349E /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3CB44829C4591000B7349E /* UIColorExtension.swift */; };
+		CA3CB44B29C4596A00B7349E /* CustomSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3CB44A29C4596A00B7349E /* CustomSegmentControl.swift */; };
+		CA3CB44D29C45B3400B7349E /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3CB44C29C45B3400B7349E /* DataExtension.swift */; };
+		CA3CB44F29C45B4600B7349E /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3CB44E29C45B4600B7349E /* StringExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA3CB42129C457CC00B7349E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA3CB40229C457CB00B7349E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA3CB40929C457CB00B7349E;
+			remoteInfo = "Collapsible Table using UITable";
+		};
+		CA3CB42B29C457CC00B7349E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA3CB40229C457CB00B7349E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA3CB40929C457CB00B7349E;
+			remoteInfo = "Collapsible Table using UITable";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA3CB40A29C457CB00B7349E /* Collapsible Table using UITable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Collapsible Table using UITable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3CB40D29C457CB00B7349E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA3CB41129C457CB00B7349E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA3CB41429C457CB00B7349E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA3CB41629C457CC00B7349E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA3CB41929C457CC00B7349E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA3CB41B29C457CC00B7349E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA3CB42029C457CC00B7349E /* Collapsible Table using UITableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Collapsible Table using UITableTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3CB42429C457CC00B7349E /* Collapsible_Table_using_UITableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collapsible_Table_using_UITableTests.swift; sourceTree = "<group>"; };
+		CA3CB42A29C457CC00B7349E /* Collapsible Table using UITableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Collapsible Table using UITableUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3CB42E29C457CC00B7349E /* Collapsible_Table_using_UITableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collapsible_Table_using_UITableUITests.swift; sourceTree = "<group>"; };
+		CA3CB43029C457CC00B7349E /* Collapsible_Table_using_UITableUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collapsible_Table_using_UITableUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA3CB43F29C4586B00B7349E /* ServiceCollapsibleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCollapsibleTableViewController.swift; sourceTree = "<group>"; };
+		CA3CB44129C4589000B7349E /* ExampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleData.swift; sourceTree = "<group>"; };
+		CA3CB44329C458B000B7349E /* CollapsibleTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewHeader.swift; sourceTree = "<group>"; };
+		CA3CB44529C458D300B7349E /* CollapsiblesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsiblesTableViewCell.swift; sourceTree = "<group>"; };
+		CA3CB44829C4591000B7349E /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		CA3CB44A29C4596A00B7349E /* CustomSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentControl.swift; sourceTree = "<group>"; };
+		CA3CB44C29C45B3400B7349E /* DataExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExtension.swift; sourceTree = "<group>"; };
+		CA3CB44E29C45B4600B7349E /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA3CB40729C457CB00B7349E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3CB41D29C457CC00B7349E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3CB42729C457CC00B7349E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA3CB40129C457CB00B7349E = {
+			isa = PBXGroup;
+			children = (
+				CA3CB40C29C457CB00B7349E /* Collapsible Table using UITable */,
+				CA3CB42329C457CC00B7349E /* Collapsible Table using UITableTests */,
+				CA3CB42D29C457CC00B7349E /* Collapsible Table using UITableUITests */,
+				CA3CB40B29C457CB00B7349E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA3CB40B29C457CB00B7349E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA3CB40A29C457CB00B7349E /* Collapsible Table using UITable.app */,
+				CA3CB42029C457CC00B7349E /* Collapsible Table using UITableTests.xctest */,
+				CA3CB42A29C457CC00B7349E /* Collapsible Table using UITableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA3CB40C29C457CB00B7349E /* Collapsible Table using UITable */ = {
+			isa = PBXGroup;
+			children = (
+				CA3CB44729C458F900B7349E /* Extension */,
+				CA3CB43D29C4580E00B7349E /* CustomView */,
+				CA3CB40D29C457CB00B7349E /* AppDelegate.swift */,
+				CA3CB41129C457CB00B7349E /* ViewController.swift */,
+				CA3CB41329C457CB00B7349E /* Main.storyboard */,
+				CA3CB41629C457CC00B7349E /* Assets.xcassets */,
+				CA3CB41829C457CC00B7349E /* LaunchScreen.storyboard */,
+				CA3CB41B29C457CC00B7349E /* Info.plist */,
+			);
+			path = "Collapsible Table using UITable";
+			sourceTree = "<group>";
+		};
+		CA3CB42329C457CC00B7349E /* Collapsible Table using UITableTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA3CB42429C457CC00B7349E /* Collapsible_Table_using_UITableTests.swift */,
+			);
+			path = "Collapsible Table using UITableTests";
+			sourceTree = "<group>";
+		};
+		CA3CB42D29C457CC00B7349E /* Collapsible Table using UITableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA3CB42E29C457CC00B7349E /* Collapsible_Table_using_UITableUITests.swift */,
+				CA3CB43029C457CC00B7349E /* Collapsible_Table_using_UITableUITestsLaunchTests.swift */,
+			);
+			path = "Collapsible Table using UITableUITests";
+			sourceTree = "<group>";
+		};
+		CA3CB43D29C4580E00B7349E /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				CA3CB43E29C4582100B7349E /* CollapsibleTable */,
+				CA3CB44A29C4596A00B7349E /* CustomSegmentControl.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		CA3CB43E29C4582100B7349E /* CollapsibleTable */ = {
+			isa = PBXGroup;
+			children = (
+				CA3CB43F29C4586B00B7349E /* ServiceCollapsibleTableViewController.swift */,
+				CA3CB44129C4589000B7349E /* ExampleData.swift */,
+				CA3CB44329C458B000B7349E /* CollapsibleTableViewHeader.swift */,
+				CA3CB44529C458D300B7349E /* CollapsiblesTableViewCell.swift */,
+			);
+			path = CollapsibleTable;
+			sourceTree = "<group>";
+		};
+		CA3CB44729C458F900B7349E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CA3CB44829C4591000B7349E /* UIColorExtension.swift */,
+				CA3CB44C29C45B3400B7349E /* DataExtension.swift */,
+				CA3CB44E29C45B4600B7349E /* StringExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA3CB40929C457CB00B7349E /* Collapsible Table using UITable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA3CB43429C457CC00B7349E /* Build configuration list for PBXNativeTarget "Collapsible Table using UITable" */;
+			buildPhases = (
+				CA3CB40629C457CB00B7349E /* Sources */,
+				CA3CB40729C457CB00B7349E /* Frameworks */,
+				CA3CB40829C457CB00B7349E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Collapsible Table using UITable";
+			productName = "Collapsible Table using UITable";
+			productReference = CA3CB40A29C457CB00B7349E /* Collapsible Table using UITable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA3CB41F29C457CC00B7349E /* Collapsible Table using UITableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA3CB43729C457CC00B7349E /* Build configuration list for PBXNativeTarget "Collapsible Table using UITableTests" */;
+			buildPhases = (
+				CA3CB41C29C457CC00B7349E /* Sources */,
+				CA3CB41D29C457CC00B7349E /* Frameworks */,
+				CA3CB41E29C457CC00B7349E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA3CB42229C457CC00B7349E /* PBXTargetDependency */,
+			);
+			name = "Collapsible Table using UITableTests";
+			productName = "Collapsible Table using UITableTests";
+			productReference = CA3CB42029C457CC00B7349E /* Collapsible Table using UITableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA3CB42929C457CC00B7349E /* Collapsible Table using UITableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA3CB43A29C457CC00B7349E /* Build configuration list for PBXNativeTarget "Collapsible Table using UITableUITests" */;
+			buildPhases = (
+				CA3CB42629C457CC00B7349E /* Sources */,
+				CA3CB42729C457CC00B7349E /* Frameworks */,
+				CA3CB42829C457CC00B7349E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA3CB42C29C457CC00B7349E /* PBXTargetDependency */,
+			);
+			name = "Collapsible Table using UITableUITests";
+			productName = "Collapsible Table using UITableUITests";
+			productReference = CA3CB42A29C457CC00B7349E /* Collapsible Table using UITableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA3CB40229C457CB00B7349E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CA3CB40929C457CB00B7349E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CA3CB41F29C457CC00B7349E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CA3CB40929C457CB00B7349E;
+					};
+					CA3CB42929C457CC00B7349E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CA3CB40929C457CB00B7349E;
+					};
+				};
+			};
+			buildConfigurationList = CA3CB40529C457CB00B7349E /* Build configuration list for PBXProject "Collapsible Table using UITable" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA3CB40129C457CB00B7349E;
+			productRefGroup = CA3CB40B29C457CB00B7349E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA3CB40929C457CB00B7349E /* Collapsible Table using UITable */,
+				CA3CB41F29C457CC00B7349E /* Collapsible Table using UITableTests */,
+				CA3CB42929C457CC00B7349E /* Collapsible Table using UITableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA3CB40829C457CB00B7349E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3CB41A29C457CC00B7349E /* LaunchScreen.storyboard in Resources */,
+				CA3CB41729C457CC00B7349E /* Assets.xcassets in Resources */,
+				CA3CB41529C457CB00B7349E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3CB41E29C457CC00B7349E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3CB42829C457CC00B7349E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA3CB40629C457CB00B7349E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3CB44B29C4596A00B7349E /* CustomSegmentControl.swift in Sources */,
+				CA3CB44029C4586B00B7349E /* ServiceCollapsibleTableViewController.swift in Sources */,
+				CA3CB44629C458D300B7349E /* CollapsiblesTableViewCell.swift in Sources */,
+				CA3CB41229C457CB00B7349E /* ViewController.swift in Sources */,
+				CA3CB44929C4591000B7349E /* UIColorExtension.swift in Sources */,
+				CA3CB40E29C457CB00B7349E /* AppDelegate.swift in Sources */,
+				CA3CB44429C458B000B7349E /* CollapsibleTableViewHeader.swift in Sources */,
+				CA3CB44229C4589000B7349E /* ExampleData.swift in Sources */,
+				CA3CB44F29C45B4600B7349E /* StringExtension.swift in Sources */,
+				CA3CB44D29C45B3400B7349E /* DataExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3CB41C29C457CC00B7349E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3CB42529C457CC00B7349E /* Collapsible_Table_using_UITableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3CB42629C457CC00B7349E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3CB43129C457CC00B7349E /* Collapsible_Table_using_UITableUITestsLaunchTests.swift in Sources */,
+				CA3CB42F29C457CC00B7349E /* Collapsible_Table_using_UITableUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA3CB42229C457CC00B7349E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA3CB40929C457CB00B7349E /* Collapsible Table using UITable */;
+			targetProxy = CA3CB42129C457CC00B7349E /* PBXContainerItemProxy */;
+		};
+		CA3CB42C29C457CC00B7349E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA3CB40929C457CB00B7349E /* Collapsible Table using UITable */;
+			targetProxy = CA3CB42B29C457CC00B7349E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA3CB41329C457CB00B7349E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA3CB41429C457CB00B7349E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA3CB41829C457CC00B7349E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA3CB41929C457CC00B7349E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA3CB43229C457CC00B7349E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA3CB43329C457CC00B7349E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA3CB43529C457CC00B7349E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Collapsible Table using UITable/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tim-ckchow.Collapsible-Table-using-UITable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA3CB43629C457CC00B7349E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Collapsible Table using UITable/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tim-ckchow.Collapsible-Table-using-UITable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA3CB43829C457CC00B7349E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tim-ckchow.Collapsible-Table-using-UITableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Collapsible Table using UITable.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Collapsible Table using UITable";
+			};
+			name = Debug;
+		};
+		CA3CB43929C457CC00B7349E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tim-ckchow.Collapsible-Table-using-UITableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Collapsible Table using UITable.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Collapsible Table using UITable";
+			};
+			name = Release;
+		};
+		CA3CB43B29C457CC00B7349E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tim-ckchow.Collapsible-Table-using-UITableUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Collapsible Table using UITable";
+			};
+			name = Debug;
+		};
+		CA3CB43C29C457CC00B7349E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tim-ckchow.Collapsible-Table-using-UITableUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Collapsible Table using UITable";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA3CB40529C457CB00B7349E /* Build configuration list for PBXProject "Collapsible Table using UITable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3CB43229C457CC00B7349E /* Debug */,
+				CA3CB43329C457CC00B7349E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA3CB43429C457CC00B7349E /* Build configuration list for PBXNativeTarget "Collapsible Table using UITable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3CB43529C457CC00B7349E /* Debug */,
+				CA3CB43629C457CC00B7349E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA3CB43729C457CC00B7349E /* Build configuration list for PBXNativeTarget "Collapsible Table using UITableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3CB43829C457CC00B7349E /* Debug */,
+				CA3CB43929C457CC00B7349E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA3CB43A29C457CC00B7349E /* Build configuration list for PBXNativeTarget "Collapsible Table using UITableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3CB43B29C457CC00B7349E /* Debug */,
+				CA3CB43C29C457CC00B7349E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA3CB40229C457CB00B7349E /* Project object */;
+}
