@@ -15,7 +15,7 @@
 		CA3CB42529C457CC00B7349E /* Collapsible_Table_using_UITableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3CB42429C457CC00B7349E /* Collapsible_Table_using_UITableTests.swift */; };
 		CA3CB42F29C457CC00B7349E /* Collapsible_Table_using_UITableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3CB42E29C457CC00B7349E /* Collapsible_Table_using_UITableUITests.swift */; };
 		CA3CB43129C457CC00B7349E /* Collapsible_Table_using_UITableUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3CB43029C457CC00B7349E /* Collapsible_Table_using_UITableUITestsLaunchTests.swift */; };
-		CA3CB44029C4586B00B7349E /* ServiceCollapsibleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3CB43F29C4586B00B7349E /* ServiceCollapsibleTableViewController.swift */; };
+		CA3CB44029C4586B00B7349E /* CollapsibleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3CB43F29C4586B00B7349E /* CollapsibleTableViewController.swift */; };
 		CA3CB44229C4589000B7349E /* ExampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3CB44129C4589000B7349E /* ExampleData.swift */; };
 		CA3CB44429C458B000B7349E /* CollapsibleTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3CB44329C458B000B7349E /* CollapsibleTableViewHeader.swift */; };
 		CA3CB44629C458D300B7349E /* CollapsiblesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3CB44529C458D300B7349E /* CollapsiblesTableViewCell.swift */; };
@@ -55,7 +55,7 @@
 		CA3CB42A29C457CC00B7349E /* Collapsible Table using UITableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Collapsible Table using UITableUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA3CB42E29C457CC00B7349E /* Collapsible_Table_using_UITableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collapsible_Table_using_UITableUITests.swift; sourceTree = "<group>"; };
 		CA3CB43029C457CC00B7349E /* Collapsible_Table_using_UITableUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collapsible_Table_using_UITableUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		CA3CB43F29C4586B00B7349E /* ServiceCollapsibleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCollapsibleTableViewController.swift; sourceTree = "<group>"; };
+		CA3CB43F29C4586B00B7349E /* CollapsibleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewController.swift; sourceTree = "<group>"; };
 		CA3CB44129C4589000B7349E /* ExampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleData.swift; sourceTree = "<group>"; };
 		CA3CB44329C458B000B7349E /* CollapsibleTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewHeader.swift; sourceTree = "<group>"; };
 		CA3CB44529C458D300B7349E /* CollapsiblesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsiblesTableViewCell.swift; sourceTree = "<group>"; };
@@ -154,7 +154,7 @@
 		CA3CB43E29C4582100B7349E /* CollapsibleTable */ = {
 			isa = PBXGroup;
 			children = (
-				CA3CB43F29C4586B00B7349E /* ServiceCollapsibleTableViewController.swift */,
+				CA3CB43F29C4586B00B7349E /* CollapsibleTableViewController.swift */,
 				CA3CB44129C4589000B7349E /* ExampleData.swift */,
 				CA3CB44329C458B000B7349E /* CollapsibleTableViewHeader.swift */,
 				CA3CB44529C458D300B7349E /* CollapsiblesTableViewCell.swift */,
@@ -304,7 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA3CB44B29C4596A00B7349E /* CustomSegmentControl.swift in Sources */,
-				CA3CB44029C4586B00B7349E /* ServiceCollapsibleTableViewController.swift in Sources */,
+				CA3CB44029C4586B00B7349E /* CollapsibleTableViewController.swift in Sources */,
 				CA3CB44629C458D300B7349E /* CollapsiblesTableViewCell.swift in Sources */,
 				CA3CB41229C457CB00B7349E /* ViewController.swift in Sources */,
 				CA3CB44929C4591000B7349E /* UIColorExtension.swift in Sources */,

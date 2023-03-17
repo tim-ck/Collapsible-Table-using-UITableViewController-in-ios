@@ -3,7 +3,7 @@ import UIKit
 //
 // MARK: - View Controller
 //
-class ServiceCollapsibleTableViewController: UITableViewController {
+class CollapsibleTableViewController: UITableViewController {
 
     //data
     var sections: [Section]! = []
@@ -98,7 +98,7 @@ class ServiceCollapsibleTableViewController: UITableViewController {
 //
 // MARK: - View Controller DataSource and Delegate
 //
-extension ServiceCollapsibleTableViewController {
+extension CollapsibleTableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         return sections.count
@@ -154,7 +154,7 @@ extension ServiceCollapsibleTableViewController {
 //
 // MARK: - Section Header Delegate
 //
-extension ServiceCollapsibleTableViewController: CollapsibleTableViewHeaderDelegate {
+extension CollapsibleTableViewController: CollapsibleTableViewHeaderDelegate {
 
     func toggleSection(_ header: CollapsibleTableViewHeader, section: Int) {
         let collapsed = !sections[section].collapsed

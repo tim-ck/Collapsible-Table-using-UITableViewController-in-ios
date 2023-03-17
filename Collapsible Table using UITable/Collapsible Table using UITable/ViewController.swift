@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        var table = ServiceCollapsibleTableViewController(sections: sectionsData, estimatedHeight: 500)
+        var table = CollapsibleTableViewController(sections: sectionsData, estimatedHeight: 500)
         self.view.addSubview(table.view)
         table.view.topAnchor.constraint(equalTo: self.view.topAnchor, constant: 120).isActive = true
         table.view.bottomAnchor.constraint(lessThanOrEqualTo: self.view.bottomAnchor, constant: -10).isActive = true
